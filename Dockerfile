@@ -14,7 +14,7 @@ RUN npm install
 COPY . .
 
 # Expone el puerto en el que tu aplicación escucha
-EXPOSE 3311
+EXPOSE 3006
 
 # Comando para iniciar tu aplicación cuando el contenedor se ejecute
 CMD ["npm", "start"]
