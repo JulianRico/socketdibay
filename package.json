@@ -1,0 +1,19 @@
+{
+  "name": "vitasocket",
+  "version": "1.0.0",
+  "description": "socket IO para dibay-pro",
+  "main": "index.js",
+  "dependencies": {
+    "express": "^4.17.1",
+    "socket.io": "^4.2.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.12"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "author": "julian Andres Quintero Rico",
+  "license": "ISC"
+}
